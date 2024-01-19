@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import axios from 'axios';
 import Gallery from './Gallery';
 
-const apiKey = "636e1481b4f3c446d26b8eb6ebfe7127";
+const apiKey = "58dda12b1b70c78e015edd642af939e7";
 const App = () => {
   const [data,setData] = useState([]);
   const [search,setSearch] = useState("");
